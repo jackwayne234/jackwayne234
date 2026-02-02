@@ -1,6 +1,13 @@
-# Hi there, I'm Christopher Jack Wayne Riner 👋
+# Hi, I'm Christopher Jack Wayne Riner 👋
 
-I am an independent researcher exploring the intersection of **photonics** and **computer architecture**. My primary focus is bypassing the radix economy penalty in computing systems by replacing electronic voltage levels with optical wavelengths.
+**Author & Researcher | Active Duty U.S. Navy**
+
+I specialize in the intersection of **Optical Computing** and **Alternative Logic Systems**. My current focus is leveraging photonics to bypass traditional computing bottlenecks.
+
+### 🔬 Research Highlights
+* **Wavelength-Division Ternary Logic:** Author of *"Bypassing the Radix Economy Penalty in Optical Computing."*
+* **Prototype Dev:** Currently building a 24x24" hardware prototype using chromatic-based sensing and additive color mixing (RGB lasers + AS7341 spectral sensors).
+* **Balanced Ternary:** Implementing logic where light mixing (e.g., Red + Blue = Magenta) represents the trit sum.
 
 ---
 
