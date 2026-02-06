@@ -1,58 +1,66 @@
-# Hi, I'm Christopher Jack Wayne Riner 👋
+# Hi, I'm Christopher Jack Wayne Riner
 
 **Author & Researcher | Active Duty U.S. Navy**
 
-I specialize in the intersection of **Optical Computing** and **Alternative Logic Systems**. My current focus is leveraging photonics to bypass traditional computing bottlenecks.
-
-### 🔬 Research Highlights
-* **Wavelength-Division Ternary Logic:** Author of *"Bypassing the Radix Economy Penalty in Optical Computing."*
-* **Prototype Dev:** Currently building a 24x24" hardware prototype using chromatic-based sensing and additive color mixing (RGB lasers + AS7341 spectral sensors).
-* **Balanced Ternary:** Implementing logic where light mixing (e.g., Red + Blue = Magenta) represents the trit sum.
+I specialize in **Optical Computing** and **Alternative Logic Systems**. Creator of the **N-Radix** optical AI accelerator architecture.
 
 ---
 
-## 🔭 Featured Research
+## Research Highlights
 
-### [Wavelength-Division Ternary Optical Computer](https://github.com/jackwayne234/-wavelength-ternary-optical-computer)
-*A novel architecture implementing balanced ternary logic using wavelength-division multiplexing.*
-
-[![Paper](https://img.shields.io/badge/Paper-Zenodo-blue)](https://doi.org/10.5281/zenodo.18437600) [![Software](https://img.shields.io/badge/Software-Zenodo-blue)](https://doi.org/10.5281/zenodo.18450479) [![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/jackwayne234/-wavelength-ternary-optical-computer/blob/main/LICENSE)
-
-> "By using color instead of voltage, we can unlock the 1.58x efficiency of ternary logic without the transistor count penalty."
-
-**Key Achievements:**
-- Developed a ternary logic system using Red (-1), Green (0), and Blue (+1) lasers
-- Designed passive optical gates using X-cube prisms and dichroic filters
-- Published theoretical framework and architecture on Zenodo
-- Open sourced all simulation code and hardware designs
+- **N-Radix Accelerator:** Optical AI accelerator achieving ~59x NVIDIA B200 performance for matrix multiply workloads
+- **81x81 Validation:** 6,561 processing elements validated via FDTD simulation — the architecture scales
+- **Wavelength-Division Ternary Logic:** Using light wavelengths instead of voltage levels to bypass the radix economy penalty
 
 ---
 
-## 📚 Publications
+## Publications
 
-*   **Riner, C. J. W.** (2026). *Wavelength-Division Ternary Logic: Bypassing the Radix Economy Penalty in Optical Computing*. Zenodo. [doi:10.5281/zenodo.18437600](https://doi.org/10.5281/zenodo.18437600)
+**Paper v2 (Architecture)**
+Riner, C. (2026). *Wavelength-Division Ternary Computing II: The N-Radix Optical AI Accelerator*. Zenodo.
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18501296-blue)](https://doi.org/10.5281/zenodo.18501296)
 
----
-
-## 🛠️ Skills & Technologies
-
-**Research & Simulation**
-- **Optics:** Waveguide theory, FDTD simulation (Meep), WDM systems
-- **Analysis:** Python, NumPy, SciPy, Matplotlib
-- **Methodology:** Open Science, Reproducible Research
-
-**Hardware Engineering**
-- **Electronics:** ESP32, SFP+ Transceivers, Laser Diode Drivers
-- **Fabrication:** 3D Printing (Optical mounts), CAD (OpenSCAD)
-- **Lab:** Optical alignment, Spectrometry, Laser safety (Class 3R)
+**Paper v1 (Theory)**
+Riner, C. (2026). *Wavelength-Division Ternary Logic: Bypassing the Radix Economy Penalty in Optical Computing*. Zenodo.
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18437600-blue)](https://doi.org/10.5281/zenodo.18437600)
 
 ---
 
-## 🌐 Connect
+## Featured Project
+
+### [N-Radix: Wavelength-Division Ternary Optical Accelerator](https://github.com/jackwayne234/-wavelength-ternary-optical-computer)
+
+| Metric | Performance | vs B200 |
+|--------|-------------|---------|
+| Base mode | 82 PFLOPS/chip | 33x |
+| Matrix multiply | ~148 PFLOPS/chip | **~59x** |
+| Pure ADD | 738 PFLOPS/chip | 295x |
+
+**Core Innovation:** Ternary logic via wavelengths (1550nm, 1310nm, 1064nm) — no voltage-level ambiguity, no transistor count penalty.
+
+**Validation:** 3x3 ✓ | 9x9 ✓ | 27x27 ✓ | **81x81 ✓** (6,561 PEs)
+
+---
+
+## Skills
+
+**Simulation & Analysis**
+- FDTD electromagnetic simulation (Meep)
+- Systolic array architecture design
+- Python, NumPy, SciPy
+
+**Photonics**
+- WDM systems, waveguide theory
+- Silicon photonics, Kerr effect
+- Sum-frequency generation (SFG) mixers
+
+---
+
+## Connect
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--9448--9033-green.svg)](https://orcid.org/0009-0008-9448-9033)
 [![Email](https://img.shields.io/badge/Email-chrisriner45%40gmail.com-red)](mailto:chrisriner45@gmail.com)
-[![Research Search Tool](https://img.shields.io/badge/Tool-Research%20Search-blueviolet)](https://research-search-tool.onrender.com)
 
 ---
+
 *Independent Research • Open Source • Optical Computing*
