@@ -8,9 +8,10 @@ I specialize in **Optical Computing** and **Alternative Logic Systems**. Creator
 
 ## Research Highlights
 
-- **N-Radix Accelerator:** Optical AI accelerator achieving ~59x NVIDIA B200 performance for matrix multiply workloads
+- **N-Radix Accelerator:** Monolithic optical AI accelerator on lithium niobate — 9x9 chip validated (8/8 circuit sim tests PASS) and ready for foundry submission
 - **81x81 Validation:** 6,561 processing elements validated via FDTD simulation — the architecture scales
-- **Wavelength-Division Ternary Logic:** Using light wavelengths instead of voltage levels to bypass the radix economy penalty
+- **Wavelength-Division Ternary Logic:** Using light wavelengths instead of voltage levels to bypass the radix economy penalty — ternary computing without the transistor count penalty
+- **Tape-Out Ready:** Monte Carlo yield 99.82% (10,000 trials), 30C passive thermal window, complete foundry submission package
 
 ---
 
@@ -30,15 +31,17 @@ Riner, C. (2026). *Wavelength-Division Ternary Logic: Bypassing the Radix Econom
 
 ### [N-Radix: Wavelength-Division Ternary Optical Accelerator](https://github.com/jackwayne234/-wavelength-ternary-optical-computer)
 
-| Metric | Performance | vs B200 |
-|--------|-------------|---------|
-| Base mode | 82 PFLOPS/chip | 33x |
-| Matrix multiply | ~148 PFLOPS/chip | **~59x** |
-| Pure ADD | 738 PFLOPS/chip | 295x |
+**Core Innovation:** Ternary logic via wavelengths (1550nm, 1310nm, 1064nm) — no voltage-level ambiguity, no transistor count penalty. All PEs physically just add via SFG mixing. The controller determines whether that means addition or multiplication (log domain).
 
-**Core Innovation:** Ternary logic via wavelengths (1550nm, 1310nm, 1064nm) — no voltage-level ambiguity, no transistor count penalty.
+| Array Size | Throughput | Power | Status |
+|------------|-----------|-------|--------|
+| **9x9 MVP** | ~100 GOPS | <1W | **Fab-ready** |
+| 81x81 | ~8.1 TFLOPS | ~5W | FDTD validated |
+| 243x243 | ~73 TFLOPS | ~20W | Architecture designed |
 
-**Validation:** 3x3 ✓ | 9x9 ✓ | 27x27 ✓ | **81x81 ✓** (6,561 PEs)
+*~2.5x better power efficiency than NVIDIA H100/B200. Scales to ~22 TFLOPS/W with 6-channel WDM.*
+
+**Validation:** 3x3, 9x9, 27x27, **81x81** — all PASSED | Circuit sim **8/8 PASS** | Monte Carlo **99.82% yield**
 
 ---
 
@@ -46,13 +49,15 @@ Riner, C. (2026). *Wavelength-Division Ternary Logic: Bypassing the Radix Econom
 
 **Simulation & Analysis**
 - FDTD electromagnetic simulation (Meep)
+- Photonic circuit simulation (SAX)
 - Systolic array architecture design
 - Python, NumPy, SciPy
 
 **Photonics**
 - WDM systems, waveguide theory
-- Silicon photonics, Kerr effect
+- Lithium niobate (TFLN) photonics
 - Sum-frequency generation (SFG) mixers
+- Kerr self-pulsing optical clocks
 
 ---
 
@@ -63,4 +68,4 @@ Riner, C. (2026). *Wavelength-Division Ternary Logic: Bypassing the Radix Econom
 
 ---
 
-*Independent Research • Open Source • Optical Computing*
+*Independent Research | Open Source | Optical Computing*
