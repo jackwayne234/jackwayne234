@@ -17,13 +17,29 @@ I specialize in **Optical Computing** and **Alternative Logic Systems**. Creator
 
 ## Publications
 
-**Paper v2 (Architecture)**
+**Paper 1 — Modified Schwarzschild Metric**
+Riner, C. (2026). *A Four-Dimensional Spatial Metric with Benford Floor and Causal Set Dimension*. Zenodo.
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18553466-blue)](https://doi.org/10.5281/zenodo.18553466)
+
+**Paper 2 — Bose-Einstein Condensates + Benford's Law**
+Riner, C. (2026). *Complete Monotonicity and Benford's Law: Deriving Quantum Statistics from the Significant Digit Distribution*. Zenodo.
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18510250-blue)](https://doi.org/10.5281/zenodo.18510250)
+
+**Paper 3 — Wavelength-Division Ternary Logic (Theory)**
+Riner, C. (2026). *Wavelength-Division Ternary Logic: Bypassing the Radix Economy Penalty in Optical Computing*. Zenodo.
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18437600-blue)](https://doi.org/10.5281/zenodo.18437600)
+
+**Paper 4 — Optical AI Accelerator (Architecture)**
 Riner, C. (2026). *Wavelength-Division Ternary Computing II: The N-Radix Optical AI Accelerator*. Zenodo.
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18501296-blue)](https://doi.org/10.5281/zenodo.18501296)
 
-**Paper v1 (Theory)**
-Riner, C. (2026). *Wavelength-Division Ternary Logic: Bypassing the Radix Economy Penalty in Optical Computing*. Zenodo.
-[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18437600-blue)](https://doi.org/10.5281/zenodo.18437600)
+**Paper 5 — River Velocity as Time Dilation**
+Riner, C. (2026). *River Velocity as Time Dilation: A Numerical Comparison Against GPS Data*. Zenodo.
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18705437-blue)](https://doi.org/10.5281/zenodo.18705437)
+
+**Paper 6 — Prime Numbers as Causal Set Theory** 🆕
+Riner, C. (2026). *Prime Numbers as Causal Set Theory*. Zenodo.
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18731508-blue)](https://doi.org/10.5281/zenodo.18731508)
 
 ---
 
