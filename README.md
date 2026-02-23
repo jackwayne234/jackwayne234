@@ -2,7 +2,25 @@
 
 **Author & Researcher | Active Duty U.S. Navy**
 
+**[Live Research Dashboard](https://jackwayne234.github.io/research-hub/)** — interactive visualizations, publications, and project status
+
 I specialize in **Optical Computing**, **Quantum Gravity**, and **Number Theory in Physics**. Creator of the **N-Radix** optical AI accelerator architecture and a 6-dimensional prime-modified Schwarzschild metric framework.
+
+---
+
+## Research Narrative
+
+Three interconnected threads, each building on the last:
+
+**Mathematics → Physics → Engineering**
+
+1. **Mathematics** — Started with the Riemann Zeta function and prime number distributions. Discovered that primes are anti-Benford objects: zero digit-order, yet generating all emergent structure. This led to prime numbers as the substrate of causal set theory — replacing CST's 5 axioms with Euler's product formula.
+
+2. **Physics** — Applied Benford's Law to gravitational systems. Built a 6-dimensional Schwarzschild metric (3 spatial + entropy rate + emergent temperature + prime substrate) with zero free parameters. Validated against GPS time dilation data and LIGO gravitational wave observations (21.4% substrate excess at GW150914 merger).
+
+3. **Engineering** — The mathematical framework inspired a new computing architecture: wavelength-division ternary logic using light (1550nm, 1310nm, 1064nm) instead of voltage levels. The N-Radix optical AI accelerator achieves ~2.5x better power efficiency than NVIDIA H100/B200 at 99.82% yield.
+
+**6 papers published** — all open access on Zenodo.
 
 ---
 
@@ -60,7 +78,7 @@ Riner, C. (2026). *Wavelength-Division Ternary Computing II: The N-Radix Optical
 Riner, C. (2026). *River Velocity as Time Dilation: A Numerical Comparison Against GPS Data*. Zenodo.
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18705437-blue)](https://doi.org/10.5281/zenodo.18705437)
 
-**Paper 6 — Prime Numbers as Causal Set Theory** 🆕
+**Paper 6 — Prime Numbers as Causal Set Theory**
 Riner, C. (2026). *Prime Numbers as Causal Set Theory*. Zenodo.
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18731508-blue)](https://doi.org/10.5281/zenodo.18731508)
 
@@ -68,7 +86,7 @@ Riner, C. (2026). *Prime Numbers as Causal Set Theory*. Zenodo.
 
 ## Featured Project
 
-### [N-Radix: Wavelength-Division Ternary Optical Accelerator](https://github.com/jackwayne234/-wavelength-ternary-optical-computer)
+### [N-Radix: Wavelength-Division Ternary Optical Accelerator](https://github.com/jackwayne234/optical-computing-workspace)
 
 **Core Innovation:** Ternary logic via wavelengths (1550nm, 1310nm, 1064nm) — no voltage-level ambiguity, no transistor count penalty. All PEs physically just add via SFG mixing. The controller determines whether that means addition or multiplication (log domain).
 
