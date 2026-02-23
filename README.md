@@ -2,16 +2,39 @@
 
 **Author & Researcher | Active Duty U.S. Navy**
 
-I specialize in **Optical Computing** and **Alternative Logic Systems**. Creator of the **N-Radix** optical AI accelerator architecture.
+I specialize in **Optical Computing**, **Quantum Gravity**, and **Number Theory in Physics**. Creator of the **N-Radix** optical AI accelerator architecture and a 6-dimensional prime-modified Schwarzschild metric framework.
 
 ---
 
-## Research Highlights
+## Research Areas
 
-- **N-Radix Accelerator:** Monolithic optical AI accelerator on lithium niobate — 9x9 chip validated (8/8 circuit sim tests PASS) and ready for foundry submission
-- **81x81 Validation:** 6,561 processing elements validated via FDTD simulation — the architecture scales
-- **Wavelength-Division Ternary Logic:** Using light wavelengths instead of voltage levels to bypass the radix economy penalty — ternary computing without the transistor count penalty
-- **Tape-Out Ready:** Monte Carlo yield 99.82% (10,000 trials), 30C passive thermal window, complete foundry submission package
+**Quantum Gravity & Spacetime**
+- Modified Schwarzschild metric with Benford floor and causal set dimension — zero free parameters
+- 6-dimensional framework: 3 spatial + entropy rate + emergent temperature + prime substrate
+- Compatible with 9 of 10 major quantum gravity models (CDT, Loop QG, String Theory, Causal Sets, Asymptotic Safety, Twistor Theory, Group Field Theory, Non-Commutative Geometry, Emergent Gravity)
+
+**Prime Numbers & Number Theory**
+- Prime numbers as the substrate of causal set theory — Euler's product replacing CST's 5 axioms
+- Riemann Zeta function applied to spacetime geometry
+- Primes as anti-Benford objects: zero digit-order yet generating all emergent structure
+
+**Benford's Law in Physics**
+- Benford analysis of the Schwarzschild metric, Bose-Einstein condensates, and quantum statistics
+- Complete monotonicity framework deriving quantum statistics from the significant digit distribution
+- Benford analysis of environmental and climate datasets
+
+**General Relativity & Time Dilation**
+- River velocity as time dilation — numerical comparison validated against real GPS data
+- Escape velocity ratio substitution in Einstein's field equations
+- Black hole interior physics: Hawking radiation, Bekenstein-Hawking entropy, spatial depletion
+
+**Gravitational Wave Analysis**
+- LIGO data analysis — substrate ripples and gravitational wave signatures
+
+**Optical Computing & Photonics**
+- N-Radix: monolithic optical AI accelerator on lithium niobate — fab-ready (99.82% yield)
+- Wavelength-division ternary logic: bypassing the radix economy penalty using light wavelengths (1550nm, 1310nm, 1064nm) instead of voltage levels
+- 81x81 systolic array (6,561 PEs) validated via FDTD simulation — ~2.5x better power efficiency than NVIDIA H100/B200
 
 ---
 
@@ -84,4 +107,4 @@ Riner, C. (2026). *Prime Numbers as Causal Set Theory*. Zenodo.
 
 ---
 
-*Independent Research | Open Source | Optical Computing*
+*Independent Research | Open Source | Optical Computing | Quantum Gravity | Number Theory*
