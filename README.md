@@ -84,7 +84,7 @@ Riner, C. (2026). *Prime Numbers as Causal Set Theory*. Zenodo.
 
 **Paper 7 — Emergence of GR from Prime Number Structure**
 Riner, C. (2026). *Emergence of General Relativity from the Prime Number Structure of the Riemann Zeta Function*. Zenodo.
-[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.14895621-blue)](https://doi.org/10.5281/zenodo.14895621)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18751909-blue)](https://doi.org/10.5281/zenodo.18751909)
 
 ---
 
