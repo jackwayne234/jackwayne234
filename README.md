@@ -4,7 +4,7 @@
 
 **[Live Research Dashboard](https://jackwayne234.github.io/research-hub/)** — interactive visualizations, publications, and project status
 
-I specialize in **Optical Computing**, **Quantum Gravity**, and **Number Theory in Physics**. Creator of the **N-Radix** optical AI accelerator architecture and a 6-dimensional prime-modified Schwarzschild metric framework.
+I specialize in **Optical Computing**, **Quantum Gravity**, and **Number Theory in Physics**. Creator of the **N-Radix** optical AI accelerator architecture and a prime-modified Schwarzschild metric framework.
 
 ---
 
@@ -14,13 +14,13 @@ Three interconnected threads, each building on the last:
 
 **Mathematics → Physics → Engineering**
 
-1. **Mathematics** — Started with the Riemann Zeta function and prime number distributions. Discovered that primes are anti-Benford objects: zero digit-order, yet generating all emergent structure. This led to prime numbers as the substrate of causal set theory — replacing CST's 5 axioms with Euler's product formula.
+1. **Mathematics** — Started with the Riemann Zeta function and prime number distributions. Discovered that primes are anti-Benford objects: zero digit-order, yet generating all emergent structure. This led to prime numbers as the foundation of causal set theory — replacing CST's 5 axioms with Euler's product formula.
 
-2. **Physics** — Applied Benford's Law to gravitational systems. Built a 6-dimensional Schwarzschild metric (3 spatial + entropy rate + emergent temperature + prime substrate) with zero free parameters. Validated against GPS time dilation data and LIGO gravitational wave observations (21.4% substrate excess at GW150914 merger).
+2. **Physics** — Applied Benford's Law to gravitational systems. Built a prime-modified Schwarzschild metric parameterized by the Riemann zeta function with zero free parameters. Validated against GPS time dilation data and LIGO gravitational wave observations (21.4% zeta excess at GW150914 merger).
 
 3. **Engineering** — The mathematical framework inspired a new computing architecture: wavelength-division ternary logic using light (1550nm, 1310nm, 1064nm) instead of voltage levels. The N-Radix optical AI accelerator achieves ~2.5x better power efficiency than NVIDIA H100/B200 at 99.82% yield.
 
-**6 papers published** — all open access on Zenodo.
+**7 papers published** — all open access on Zenodo.
 
 ---
 
@@ -28,11 +28,11 @@ Three interconnected threads, each building on the last:
 
 **Quantum Gravity & Spacetime**
 - Modified Schwarzschild metric with Benford floor and causal set dimension — zero free parameters
-- 6-dimensional framework: 3 spatial + entropy rate + emergent temperature + prime substrate
+- Schwarzschild metric parameterized by ζ(s): the identity ζ(s) × 1/ζ(s) = 1 enforces g_tt · g_rr = −1
 - Compatible with 9 of 10 major quantum gravity models (CDT, Loop QG, String Theory, Causal Sets, Asymptotic Safety, Twistor Theory, Group Field Theory, Non-Commutative Geometry, Emergent Gravity)
 
 **Prime Numbers & Number Theory**
-- Prime numbers as the substrate of causal set theory — Euler's product replacing CST's 5 axioms
+- Prime numbers as the foundation of causal set theory — Euler's product replacing CST's 5 axioms
 - Riemann Zeta function applied to spacetime geometry
 - Primes as anti-Benford objects: zero digit-order yet generating all emergent structure
 
@@ -47,7 +47,7 @@ Three interconnected threads, each building on the last:
 - Black hole interior physics: Hawking radiation, Bekenstein-Hawking entropy, spatial depletion
 
 **Gravitational Wave Analysis**
-- LIGO data analysis — substrate ripples and gravitational wave signatures
+- LIGO data analysis — zeta-modified waveform predictions and gravitational wave signatures
 
 **Optical Computing & Photonics**
 - N-Radix: monolithic optical AI accelerator on lithium niobate — fab-ready (99.82% yield)
@@ -81,6 +81,10 @@ Riner, C. (2026). *River Velocity as Time Dilation: A Numerical Comparison Again
 **Paper 6 — Prime Numbers as Causal Set Theory**
 Riner, C. (2026). *Prime Numbers as Causal Set Theory*. Zenodo.
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18731508-blue)](https://doi.org/10.5281/zenodo.18731508)
+
+**Paper 7 — Emergence of GR from Prime Number Structure**
+Riner, C. (2026). *Emergence of General Relativity from the Prime Number Structure of the Riemann Zeta Function*. Zenodo.
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.14895621-blue)](https://doi.org/10.5281/zenodo.14895621)
 
 ---
 
