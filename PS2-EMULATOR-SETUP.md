@@ -6,33 +6,52 @@ Guide for setting up **EverQuest Online Adventures: Frontiers (USA)** [SLUS-2074
 
 ## Table of Contents
 
-1. [What You Need](#what-you-need)
-2. [Install NetherSX2 Classic](#install-nethersx2-classic)
-3. [Add PS2 BIOS](#add-ps2-bios)
-4. [Prepare the Game ISO](#prepare-the-game-iso)
-5. [Configure the Emulator](#configure-the-emulator)
-6. [DNAS Bypass (Required for Online Play)](#dnas-bypass-required-for-online-play)
-7. [DEV9 Networking Setup](#dev9-networking-setup)
-8. [Memory Card Setup](#memory-card-setup)
-9. [Connect to Sandstorm Server](#connect-to-sandstorm-server)
-10. [Recommended Performance Settings for AYN Thor](#recommended-performance-settings-for-ayn-thor)
-11. [Troubleshooting](#troubleshooting)
-12. [Resources](#resources)
+1. [Shopping List](#shopping-list)
+2. [What You Need (Summary)](#what-you-need-summary)
+3. [Install NetherSX2 Classic](#install-nethersx2-classic)
+4. [Step 1: Dump PS2 BIOS](#step-1-dump-ps2-bios-on-the-ps2--no-pc-needed)
+5. [Step 2: Rip the Game Disc](#step-2-rip-the-game-disc-on-the-ps2--no-pc-needed)
+6. [Configure the Emulator](#configure-the-emulator)
+7. [DNAS Bypass (Required for Online Play)](#dnas-bypass-required-for-online-play)
+8. [DEV9 Networking Setup](#dev9-networking-setup)
+9. [Memory Card Setup](#memory-card-setup)
+10. [Connect to Sandstorm Server](#connect-to-sandstorm-server)
+11. [Recommended Performance Settings for AYN Thor](#recommended-performance-settings-for-ayn-thor)
+12. [Troubleshooting](#troubleshooting)
+13. [Resources](#resources)
 
 ---
 
-## What You Need
+## Shopping List
+
+No PC required — everything can be done with the PS2 itself and your AYN Thor.
+
+| Item | Where to Buy | Cost |
+|------|-------------|------|
+| **AYN Thor** | You already have this | — |
+| **PS2 Slim (used)** | [eBay — PS2 Consoles](https://www.ebay.com/b/Sony-PlayStation-2-Consoles/139971/bn_7116320197) | ~$50-80 |
+| **EQOA Frontiers disc** | [eBay — EQOA Frontiers](https://www.ebay.com/p/10377) | ~$5-15 |
+| **FreeMCBoot memory card** | [Amazon](https://www.amazon.com/Memory-Card-FMCB-PlayStation-Mcboot/dp/B07PB2DYTT) / [Kaico Labs](https://kaicolabs.com/product/playstation-2-8mb-free-mcboot-1-966-memory-card/) / [Etsy](https://www.etsy.com/listing/1603309481/free-mcboot-fmcb-1966-playstation-2-ps2) | ~$10-15 |
+| **USB flash drive** | Any store (Walmart, Amazon, gas station) — any size, FAT32 | ~$5-10 |
+| **USB-C OTG adapter** | Amazon / any electronics store | ~$5 |
+| | **Total** | **~$75-125** |
+
+> **PS2 Slim note:** Avoid model **SCPH-9000x** — FreeMCBoot does NOT work on it. Any other Slim model is fine and has a built-in Ethernet port.
+
+> **Legal note:** You must dump the PS2 BIOS from your own console and rip the game ISO from your own physical disc.
+
+---
+
+## What You Need (Summary)
 
 | Item | Details |
 |------|---------|
 | **Device** | AYN Thor (Snapdragon 8 Gen 2 — Base, Pro, or Max) |
 | **Emulator** | NetherSX2 Classic v2.2n or newer (with DEV9 networking support) |
-| **PS2 BIOS** | Dumped from your own PlayStation 2 console |
-| **Game ISO** | EverQuest Online Adventures: Frontiers (USA) [SLUS-20744] — ripped from your own disc |
+| **PS2 BIOS** | Dumped from your own PlayStation 2 console (see below) |
+| **Game ISO** | Ripped from your own EQOA Frontiers disc using the PS2 itself (see below) |
 | **Wi-Fi** | Required for online play on the Sandstorm server |
 | **Storage** | At least 5 GB free (BIOS + ISO + emulator data) |
-
-> **Legal note:** You must dump the PS2 BIOS from your own console and rip the game ISO from your own physical disc. Downloading BIOS files or game ISOs you don't own is piracy.
 
 ---
 
@@ -56,22 +75,66 @@ NetherSX2 Classic is the recommended PS2 emulator for Android with online multip
 
 ---
 
-## Add PS2 BIOS
+## Step 1: Dump PS2 BIOS (On the PS2 — No PC Needed)
 
-1. Create a folder on your AYN Thor's internal storage: `Internal Storage/NetherSX2/bios/`
-2. Copy your PS2 BIOS files into that folder (you need at least one, e.g., `SCPH-70012.bin`)
-3. Open NetherSX2 Classic → **Settings** → **BIOS** → select your BIOS file
+You need a BIOS file from your PS2 to run the emulator. Here's how to dump it using the PS2 itself.
 
-> A USA-region BIOS (SCPH-30001, SCPH-39001, SCPH-50001, SCPH-70012, etc.) is recommended since EQOA Frontiers is a USA title.
+### What you need for this step
+- PS2 Slim console (plugged into a TV)
+- FreeMCBoot memory card
+- USB flash drive (formatted to FAT32)
+- PS2 controller
+
+### Instructions
+
+1. **Format your USB drive to FAT32** — you can do this on the AYN Thor:
+   - Go to **Settings** → **Storage** → select USB drive → **Format as portable** (FAT32)
+   - Or use a file manager app
+2. **Plug the USB drive into the PS2** (front USB port)
+3. **Insert the FreeMCBoot memory card** into slot 1
+4. **Power on the PS2** — you'll see the FreeMCBoot menu instead of the normal PS2 screen
+5. **Launch "PS2 BIOS Dumper"** (or "BIOS Dumper") from the FreeMCBoot menu
+   - If it's not pre-installed, you may need to load it from USB — most FreeMCBoot cards include it
+6. **Select "Dump BIOS to USB"** — wait for it to finish (takes about 30 seconds)
+7. **Done!** Your BIOS files are now on the USB drive
+
+### Transfer BIOS to AYN Thor
+
+1. Remove USB drive from the PS2
+2. Plug it into your AYN Thor using the **USB-C OTG adapter**
+3. Use a file manager (the built-in Files app works) to copy the BIOS files to:
+   `Internal Storage/NetherSX2/bios/`
+4. Open NetherSX2 Classic → **Settings** → **BIOS** → select your BIOS file
+
+> A USA-region BIOS is recommended since EQOA Frontiers is a USA title. Your PS2 Slim will dump whatever region it is — a US console gives you a US BIOS.
 
 ---
 
-## Prepare the Game ISO
+## Step 2: Rip the Game Disc (On the PS2 — No PC Needed)
 
-1. Rip your physical EverQuest Online Adventures: Frontiers disc to an ISO file using a PC with a DVD drive (tools like ImgBurn work well)
-2. Optionally convert the ISO to **CHD format** using [CHDroid](https://play.google.com/store/apps/details?id=org.nicholasgasior.chdroid) to save storage space
-3. Transfer the ISO/CHD file to your AYN Thor (e.g., `Internal Storage/PS2/Games/`)
-4. In NetherSX2, add the game folder to your library by going to **Settings** → **Game List** → **Game Directories** and adding the path
+You can rip the EQOA Frontiers disc directly on the PS2 using OPL (Open PS2 Loader), which is included on most FreeMCBoot cards.
+
+### Instructions
+
+1. **Plug the USB drive into the PS2** (front USB port)
+2. **Insert the EQOA Frontiers disc** into the PS2
+3. **Boot with the FreeMCBoot memory card** inserted
+4. **Launch OPL (Open PS2 Loader)** from the FreeMCBoot menu
+5. In OPL, go to **Settings** → set **USB device start mode** to **ON**
+6. Go back to the main menu → select **USB Games** → press **R1** to open the menu
+7. Select **"Copy DVD to USB"** — this will rip the disc to the USB drive as an ISO
+8. **Wait for it to finish** — EQOA Frontiers is a DVD, so this takes 15-30 minutes
+9. The ISO will be saved to the USB drive under a `DVD` or `CD` folder
+
+> **Alternative:** If OPL doesn't have a disc rip option on your FreeMCBoot card, look for **USBUtil** or **HDLoader** in the FreeMCBoot menu. You can also use **wLaunchELF** (file manager on FreeMCBoot) to copy the disc contents.
+
+### Transfer ISO to AYN Thor
+
+1. Remove USB drive from the PS2
+2. Plug it into your AYN Thor using the **USB-C OTG adapter**
+3. Copy the ISO file to: `Internal Storage/PS2/Games/`
+4. Optionally convert to **CHD format** using [CHDroid](https://play.google.com/store/apps/details?id=org.nicholasgasior.chdroid) to save storage space
+5. In NetherSX2, add the game folder: **Settings** → **Game List** → **Game Directories** → add the path
 
 ### Game Identification
 
@@ -278,6 +341,9 @@ The AYN Thor's bottom touchscreen (3.92") can be mapped to:
 | **Obtainium (App Manager)** | [GitHub — ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) |
 | **AYN Thor Setup Guide** | [retrohandhelds.gg](https://retrohandhelds.gg/ayn-thor-setup-guide/) |
 | **PS2 Online Gaming Community** | [ps2onlinegaming.com](https://ps2onlinegaming.com/) |
+| **Buy PS2 Console (used)** | [eBay — PS2 Consoles](https://www.ebay.com/b/Sony-PlayStation-2-Consoles/139971/bn_7116320197) |
+| **Buy EQOA Frontiers disc** | [eBay — EQOA Frontiers](https://www.ebay.com/p/10377) |
+| **Buy FreeMCBoot card** | [Amazon](https://www.amazon.com/Memory-Card-FMCB-PlayStation-Mcboot/dp/B07PB2DYTT) / [Kaico Labs](https://kaicolabs.com/product/playstation-2-8mb-free-mcboot-1-966-memory-card/) |
 
 ---
 
