@@ -4,7 +4,6 @@ I build useful software tools for everyday people.
 Most of what I share here is Linux-focused and designed to solve plain, annoying problems without forcing people to live in the terminal.
 
 This page is a curated starting point, not a dump of every repo.
-If you only click a few things here, start with the projects below.
 
 ## Start here
 
