@@ -7,8 +7,8 @@ This page is a curated starting point, not a dump of every repo.
 
 ## Start here
 
+- [ground-truth-md](https://github.com/jackwayne234/ground-truth-md) — the starter `ground-truth.md` provides scaffolding and structure for any project. Drop the ground-truth.md file into any new project folder, then open a terminal window in that folder, start up your AI, and tell it to read that file. It will do the rest.
 - [Ascended Barron: GroundTruth OS](https://github.com/jackwayne234/Ascended-Barron-Groundtruth-OS) — my flagship project: a Linux-based environment for organized AI-assisted work.
-- [ground-truth-md](https://github.com/jackwayne234/ground-truth-md) — the starter `ground-truth.md` pattern that powers GroundTruth OS: a single source-of-truth file that stops an AI assistant from guessing or building before you've approved the direction.
 - [Computer Storage Cleaner for Linux](https://github.com/jackwayne234/computer-storage-cleaner-linux) — helps everyday Linux users review cleanup options when a computer feels cluttered or low on space.
 - [Bulk Serial File Renamer for Linux](https://github.com/jackwayne234/bulk-serial-file-renamer-linux) — renames a folder of files into clean numbered order.
 - [Network Health Checker for Linux](https://github.com/jackwayne234/network-health-checker-linux) — runs simple network checks and explains common problems in plain English.
