@@ -8,6 +8,7 @@ This page is a curated starting point, not a dump of every repo.
 ## Start here
 
 - [Ascended Barron: GroundTruth OS](https://github.com/jackwayne234/Ascended-Barron-Groundtruth-OS) — my flagship project: a Linux-based environment for organized AI-assisted work.
+- [ground-truth-md](https://github.com/jackwayne234/ground-truth-md) — the starter `ground-truth.md` pattern that powers GroundTruth OS: a single source-of-truth file that stops an AI assistant from guessing or building before you've approved the direction.
 - [Computer Storage Cleaner for Linux](https://github.com/jackwayne234/computer-storage-cleaner-linux) — helps everyday Linux users review cleanup options when a computer feels cluttered or low on space.
 - [Bulk Serial File Renamer for Linux](https://github.com/jackwayne234/bulk-serial-file-renamer-linux) — renames a folder of files into clean numbered order.
 - [Network Health Checker for Linux](https://github.com/jackwayne234/network-health-checker-linux) — runs simple network checks and explains common problems in plain English.
@@ -17,6 +18,7 @@ This page is a curated starting point, not a dump of every repo.
 ### Organizing work and files
 
 - [Ascended Barron: GroundTruth OS](https://github.com/jackwayne234/Ascended-Barron-Groundtruth-OS) — creates a more structured way to start tasks, keep project folders organized, and work with AI tools.
+- [ground-truth-md](https://github.com/jackwayne234/ground-truth-md) — a starter `ground-truth.md` template that gives an AI assistant a written contract before it starts work on a project.
 - [Bulk Serial File Renamer for Linux](https://github.com/jackwayne234/bulk-serial-file-renamer-linux) — good for documents, screenshots, exports, mixed folders, and anything that needs clean numbered filenames.
 - [Bulk Product Photo Renamer for Linux](https://github.com/jackwayne234/bulk-product-photo-renamer-linux) — helps sellers and small shops rename product photos into cleaner filenames.
 - [Bulk Product Photo Renamer for Mac Silicon](https://github.com/jackwayne234/bulk-product-photo-renamer-mac) — the same product-photo renaming idea, but for Mac users.
